@@ -1,0 +1,435 @@
+/*common*/
+
+
+
+
+
+.wp{width:960px; height:auto; margin:0 auto;position:relative;}
+
+
+
+
+
+/*float*/
+
+
+
+
+
+.cl{ clear:both;}
+
+
+.fl{ float:left;display:inline-block;}
+
+
+.fr{ float:right;display:inline-block;}
+
+
+
+
+
+.taaa{height:20px;text-align:right;}
+
+
+.taaa a{margin:0 5px;}
+
+
+.blank5{width:100%;height:5px; clear:both; overflow:hidden}
+
+
+.blank10{width:100%;height:10px; clear:both; overflow:hidden}
+
+
+.blank15{width:100%;height:15px; clear:both; overflow:hidden}
+
+
+.blank20{width:100%;height:20px; clear:both; overflow:hidden}
+
+
+.blank30{width:100%;height:30px; clear:both; overflow:hidden}
+
+
+
+
+
+.mm1,.mm2,.mm3{float:left;overflow:hidden;}
+
+
+.mm1{width:300px;}
+
+
+.mm2{margin:0 5px;width:310px;}
+
+
+.mm3{width:340px;}
+
+
+
+
+
+.box1{width:100%;padding:0;margin:0;}
+
+
+.box1 dd{border:1px solid #e8e8e8;padding:0;margin:0;}
+
+
+.box1 dt{padding-left:24px;position:relative;height:25px;color:#fff;line-height:25px;vertical-align:middle;background:url(/ycsd/images/hbg2.gif) 0 0 repeat-x;}
+
+
+.box1 dt > img{position:absolute;left:0px;top:0px;}
+
+
+.box1 dt a{display:inline-block;position:absolute;right:8px;top:1px;}
+
+
+.lingdao p{text-align:center;}
+
+
+.xinxitool a{margin:5px 5px 5px 10px;display:inline-block;}
+
+
+
+
+
+.xinwen{margin-top:5px;}
+
+
+
+
+
+.zhuye dl{width:477px;}.zhuye dl li{float:left;margin-left:5px;}
+
+
+.gun div{float:left;}.picl{width:878px;height:131px;background:url(/ycsd/images/pic_002.gif) 0 0 repeat-x;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- 主菜单nsy-menuNav --*/
+
+
+.nsy-menuNav{
+
+
+	height:42px;
+
+
+	line-height:42px;
+
+
+	background:#3E85E1 url(/ycsd/images/menu_bg.jpg) repeat-x;
+
+
+}
+
+
+.nsy-menuNav li{
+
+
+	position:relative;
+
+
+	float:left;
+
+
+	width: 120px;
+
+
+	z-index:99;
+
+
+}
+
+
+.nsy-menuNav li a{
+
+
+	display:block;
+
+
+	font-size:14px;
+
+
+	text-align:center;
+
+
+	text-decoration:none;
+
+
+	color: #fff;
+
+
+}
+
+
+.nsy-menuNav .active a,/*当前页选中*/
+
+
+.nsy-menuNav .cur a,
+
+
+.nsy-menuNav .cur .nsy-subNavDiv,
+
+
+.nsy-menuNav .nsy-subNavDiv .cur .nsy-subNavDiv,
+
+
+.nsy-menuNav .nsy-subNavDiv .cur .nsy-subNavDiv a {
+
+
+	background:#40A3E4;
+
+
+	color:#fff;
+
+
+}
+
+
+/*二级菜单*/
+
+
+.nsy-menuNav .nsy-subNavDiv {
+
+
+	display:none;
+
+
+	position: absolute;
+
+
+	left: 0;
+
+
+	top: 42px;
+
+
+}
+
+
+.nsy-menuNav .nsy-subNavDiv li {
+
+
+	text-align:center;
+
+
+	width:100%;
+
+
+}
+
+
+.nsy-menuNav .nsy-subNavDiv a {
+
+
+	height:24px;
+
+
+	line-height:24px;
+
+
+	font-size:12px;
+
+
+}
+
+
+.nsy-menuNav .nsy-subNavDiv a:hover,
+
+
+.nsy-menuNav .nsy-subNavDiv .cur a,
+
+
+.nsy-menuNav .nsy-subNavDiv .nsy-subNavDiv .cur a {
+
+
+	background-color:#5DBCF3;
+
+
+	color:#fff;
+
+
+}
+
+
+/*三级菜单*/
+
+
+.nsy-menuNav .nsy-subNavDiv .nsy-subNavDiv {
+
+
+	display:none;
+
+
+	position: absolute;
+
+
+	left: 144px;
+
+
+	top: 0;
+
+
+}
+
+
+/**/
+
+
+.nsy-newsListTitle{
+
+
+	display:inline;
+
+
+}
+
+
+.news,li,a{
+
+
+	text-align:left;
+
+
+}
+
+
+td img,.nsy-letterLink li,.nsy-news-ul li{
+
+
+	display:block;
+
+
+}
+
+
+.news img,.nsy-newsFlag img,li img,.LoginHorizontal li{
+
+
+	display:inline;
+
+
+}
+
+
+.nsy-newsContent img{
+
+
+	max-width:666px;
+
+
+	_width:666px;	
+
+
+}
+
+
+.nsy-setfont{
+
+
+	color:#fff;
+
+
+	text-align:left;
+
+
+}
+
+
+.nsy-scrollPicNews-table{
+
+
+	margin-top:15px;
+
+
+}
+
+
+
+
+
+.position{margin:7px auto;margin-bottom:20px;height:25px;line-height:25px;vertical-align:middlle;padding-left:25px;border-bottom:1px solid #145bb3;background:url(/ycsd/images/20051202032337.jpg) 0 0 no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leftside{width:200px;float:left;overflow:hidden;margin:0;}
+
+
+.leftside dt {background:#145bb3 url(/ycsd/images/erleft_tip1.jpg) 0 5px no-repeat;height:30px;line-height:30px;vertical-align:middle;padding-left:30px;font-size:14px;font-weight:bold;color:#eee;}
+
+
+.leftside dd{background-color:#145bb3;padding-left:10px;margin:0;margin-bottom:2px;}
+
+
+.leftside dd a{display:block;background:url(/ycsd/images/erjtab_bgz.jpg) 0 0 repeat-x;height:25px;line-height:25px;vertical-align:middle;border-right:1px solid #eee;}
+
+
+.leftside dd a:hover{font-weight:bold;}
+
+
+.leftside dd em{display:inline-block;width:11px;height:13px;margin:0 10px 0 5px;background:url(/ycsd/images/erleft_tip2.jpg) 0 2px no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+.rightside{width:750px;float:right;}
+
+
+.cmore{font-size:14px;font-weight:bold;margin:5px auto;height:25px;line-height:25px;vertical-align:middlle;padding-left:25px;border-bottom:2px solid #145bb3;background:url(/ycsd/images/20051202032337.jpg) 0 0 no-repeat;}
+
+
+.cmore a{float:right;}
+
+
+.clist li{height:24px;line-height:20px;vertical-align:middle;list-style:square inside url(/ycsd/images/20050407074932.gif);}
+
+
+.clist li span{color:#aaa;float:right;}
+
+
+.clist li a:hover{text-decoration:underline;}
+
+
+
+
+
+.ml1{width:220px;float:left;}
+
+
+.ml2{width:730px;float:right;}
+
+
+
+.fy li{float:left;line-height:20px;margin-right:6px;border:1px solid #E9E9E9;list-style:none;}
+.fy li.thisclass,.xxx li.thisclass a,.xxx li.thisclass a:hover{background-color:#F8F8F8;padding:2px 4px 2px;font-weight:bold;}
